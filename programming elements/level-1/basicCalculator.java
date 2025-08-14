@@ -15,6 +15,5 @@ public class basicCalculator {
                            + number1 + " and " + number2 + " is " 
                            + addition + ", " + subtraction + ", " 
                            + multiplication + ", and " + division);
-        input.close();
     }
 }
