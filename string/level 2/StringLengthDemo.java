@@ -9,5 +9,6 @@ public class StringLengthDemo {
         }
         System.out.println("Custom Length: "+count);
         System.out.println("Built-in Length: "+str.length());
+        sc.close();
     }
 }
