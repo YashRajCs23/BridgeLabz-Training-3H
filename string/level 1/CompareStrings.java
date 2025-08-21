@@ -21,5 +21,6 @@ public class CompareStrings{
         System.out.println("Custom compare result: " + res);
         System.out.println("Built-in equals() result: " + result);
         System.out.println("Both results same? " + (res == result));
+        sc.close();
     }
 }
