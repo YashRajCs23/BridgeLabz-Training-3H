@@ -30,5 +30,6 @@ public class SplitWithLengthDemo {
         for(int i=0;i<data.length;i++){
             System.out.println(data[i][0]+"\t"+Integer.parseInt(data[i][1]));
         }
+        sc.close();
     }
 }
