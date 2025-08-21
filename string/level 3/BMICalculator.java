@@ -1,11 +1,5 @@
 import java.util.Scanner;
 public class BMICalculator {
-    static String getStatus(double bmi) {
-        if (bmi <= 18.4) return "Underweight";
-        else if (bmi <= 24.9) return "Normal";
-        else if (bmi <= 39.9) return "Overweight";
-        else return "Obese";
-    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int people = 10;
@@ -19,9 +13,16 @@ public class BMICalculator {
         System.out.println("\nPerson\tWeight(kg)\tHeight(cm)\tBMI\tStatus");
         for (int i = 0; i < people; i++) {
             double w = data[i][0];
-            double h = data[i][1] / 100; // cm → m
+            double h = data[i][1] / 100; // convert cm to m
             double bmi = Math.round((w / (h * h)) * 10.0) / 10.0;
-            System.out.println((i + 1) + "\t" + w + "\t\t" + data[i][1] + "\t\t" + bmi + "\t" + getStatus(bmi));
+            String status = "";
+            if (bmi <= 18.4) status = "Underweight";
+            else if (bmi <= 24.9) status = "Normal";
+            else if (bmi <= 39.9) status = "Overweight";
+            else status = "Obese";
+
+            System.out.println((i + 1) + "\t" + w + "\t\t" + data[i][1] + "\t\t" + bmi + "\t" + status);
         }
+        sc.close();
     }
 }
