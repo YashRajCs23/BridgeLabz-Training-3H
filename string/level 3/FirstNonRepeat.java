@@ -10,5 +10,6 @@ public class FirstNonRepeat {
             if(freq[text.charAt(i)]==1){ ans=text.charAt(i); break; }
         }
         if(ans!=0) System.out.println(ans); else System.out.println("None");
+        sc.close();
     }
 }
