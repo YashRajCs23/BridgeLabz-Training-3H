@@ -28,5 +28,6 @@ public class UppercaseDemo {
         System.out.println("Manual Uppercase: " + manualUpper);
         System.out.println("Built-in Uppercase: " + builtInUpper);
         System.out.println("Are both same? " + isSame);
+        sc.close();
     }
 }
