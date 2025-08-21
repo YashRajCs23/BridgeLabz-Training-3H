@@ -8,5 +8,6 @@ public class ArrayIndexOutOfBoundsDemo {
             names[i] = sc.next();
         }
         System.out.println("Accessing index 5: " + names[5]);
+        sc.close();
     }
 }
