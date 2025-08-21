@@ -23,5 +23,6 @@ public class StudentScorecard {
         for(int i=0;i<students;i++){
             System.out.println((i+1)+"\t"+scores[i][0]+"\t"+scores[i][1]+"\t"+scores[i][2]+"\t"+total[i]+"\t"+avg[i]+"\t"+per[i]+"\t"+grade[i]);
         }
+        
     }
 }
