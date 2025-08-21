@@ -5,5 +5,6 @@ public class StringIndexOutOfBoundsDemo {
         System.out.print("Enter a string: ");
         String str=sc.next();
         System.out.println(str.charAt(str.length())); 
+        sc.close();
     }
 }
