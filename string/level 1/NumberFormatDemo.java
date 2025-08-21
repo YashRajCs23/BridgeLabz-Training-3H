@@ -6,5 +6,6 @@ public class NumberFormatDemo {
         String str=sc.next();
         int num=Integer.parseInt(str);
         System.out.println("Number is: "+num);
+        sc.close();
     }
 }
