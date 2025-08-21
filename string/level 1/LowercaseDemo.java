@@ -28,5 +28,6 @@ public class LowercaseDemo {
         System.out.println("Manual Lowercase: " + manualLower);
         System.out.println("Built-in Lowercase: " + builtInLower);
         System.out.println("Are both same? " + isSame);
+        sc.close();
     }
 }
