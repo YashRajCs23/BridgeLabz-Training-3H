@@ -34,5 +34,6 @@ public class RockPaperScissors {
         System.out.println("\nPlayer Wins: " + playerWins + " (" + playerPct + "%)");
         System.out.println("Computer Wins: " + compWins + " (" + compPct + "%)");
         System.out.println("Draws: " + draws);
+        sc.close();
     }
 }
