@@ -31,5 +31,6 @@ public class SplitCompareDemo {
             }
         }
         System.out.println("Are both same? "+same);
+        sc.close();
     }
 }
