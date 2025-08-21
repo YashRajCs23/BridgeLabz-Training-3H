@@ -24,5 +24,6 @@ public class ToCharArrayExample {
         System.out.println("Custom char array: "+Arrays.toString(customChars));
         System.out.println("Built-in char array: "+Arrays.toString(builtInChars));
         System.out.println("Arrays equal? "+areEqual);
+        sc.close();
     }
 }
