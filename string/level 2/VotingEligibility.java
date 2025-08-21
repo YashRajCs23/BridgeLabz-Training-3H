@@ -17,5 +17,6 @@ public class VotingEligibility {
         for (int i = 0; i < 10; i++) {
             System.out.println(result[i][0] + "\t" + result[i][1]);
         }
+        
     }
 }
