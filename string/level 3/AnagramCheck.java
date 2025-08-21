@@ -12,5 +12,6 @@ public class AnagramCheck {
         boolean isAna=true;
         for(int i=0;i<256;i++) if(freq1[i]!=freq2[i]){ isAna=false; break; }
         System.out.println(isAna?"Anagram":"Not Anagram");
+        sc.close();
     }
 }
