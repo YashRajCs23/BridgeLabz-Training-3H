@@ -22,5 +22,6 @@ public class TrimSpaces {
         System.out.println("Custom Trim: [" + trimmed + "]");
         System.out.println("Built-in Trim: [" + builtin + "]");
         System.out.println("Are equal? " + equal);
+        sc.close();
     }
 }
