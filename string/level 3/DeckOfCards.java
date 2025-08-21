@@ -41,5 +41,6 @@ public class DeckOfCards {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
