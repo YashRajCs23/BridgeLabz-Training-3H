@@ -18,5 +18,6 @@ public class CalendarDisplay {
             System.out.printf("%3d ", i);
             if ((i + d0) % 7 == 0 || i == days[m]) System.out.println();
         }
+        sc.close();
     }
 }
