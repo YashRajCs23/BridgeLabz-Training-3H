@@ -27,5 +27,6 @@ public class SubstringExample {
         System.out.println("Custom substring: "+customSub);
         System.out.println("Built-in substring: "+builtInSub);
         System.out.println("Are they equal? "+areEqual);
+        sc.close();
     }
 }
