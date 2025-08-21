@@ -37,5 +37,6 @@ public class PalindromeCheck {
             if (arr[i] != rev[i]) arrPal = false;
         }
         System.out.println("Logic3: " + arrPal);
+        sc.close();
     }
 }
