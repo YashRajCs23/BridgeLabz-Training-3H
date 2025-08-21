@@ -18,5 +18,6 @@ public class UniqueChars {
         char[] result=new char[k];
         for(int i=0;i<k;i++) result[i]=unique[i];
         for(char c:result) System.out.print(c+" ");
+        sc.close();
     }
 }
