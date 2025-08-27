@@ -64,6 +64,5 @@ public class OnlineShoppingSystem {
             }
         }
         System.out.println("\nThank you for shopping with us!");
-        sc.close();
     }
 }
