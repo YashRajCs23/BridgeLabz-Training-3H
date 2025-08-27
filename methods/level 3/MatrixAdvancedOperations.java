@@ -111,5 +111,6 @@ public class MatrixAdvancedOperations {
                 displayMatrix(inv);
             }
         }
+        sc.close();
     }
 }
