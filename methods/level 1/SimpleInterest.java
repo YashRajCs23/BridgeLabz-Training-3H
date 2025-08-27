@@ -10,5 +10,6 @@ public class SimpleInterest {
         double time=sc.nextDouble();
         double si=calculateSimpleInterest(principal,rate,time);
         System.out.println("The Simple Interest is "+si+" for Principal "+principal+", Rate of Interest "+rate+" and Time "+time);
+        sc.close();
     }
 }
