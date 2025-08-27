@@ -1,4 +1,5 @@
 public class EmployeeBonus {
+    
     public static int[][] generateData(int n) {
         int[][] data = new int[n][2];
         for (int i = 0; i < n; i++) {
