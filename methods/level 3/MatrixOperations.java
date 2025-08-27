@@ -83,5 +83,6 @@ public class MatrixOperations {
         } else {
             System.out.println("Multiplication not possible (incompatible dimensions).");
         }
+        sc.close();
     }
 }
