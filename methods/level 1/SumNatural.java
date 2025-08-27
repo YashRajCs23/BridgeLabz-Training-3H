@@ -9,5 +9,6 @@ public class SumNatural {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         System.out.println(calculateSum(n));
+        sc.close();
     }
 }
