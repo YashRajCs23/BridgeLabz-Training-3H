@@ -19,5 +19,6 @@ public class Friends {
         String[] names={"Amar","Akbar","Anthony"};
         System.out.println("Youngest: "+names[findYoungest(ages)]);
         System.out.println("Tallest: "+names[findTallest(heights)]);
+        sc.close();
     }
 }
