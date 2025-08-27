@@ -24,5 +24,6 @@ public class LineEquation {
         double[] equation = findLineEquation(x1, y1, x2, y2);
         System.out.println("Euclidean Distance: " + distance);
         System.out.println("Equation of Line: y = " + equation[0] + "x + " + equation[1]);
+        sc.close();
     }
 }
