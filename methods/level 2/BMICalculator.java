@@ -27,5 +27,6 @@ public class BMICalculator {
             System.out.print(data[i][2] + "\t");
             System.out.println(status[i]);
         }
+        sc.close();
     }
 }
