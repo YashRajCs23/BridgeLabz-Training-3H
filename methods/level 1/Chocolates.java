@@ -9,5 +9,6 @@ public class Chocolates {
         int numberOfChildren=sc.nextInt();
         int[] res=findRemainderAndQuotient(numberOfChocolates,numberOfChildren);
         System.out.println("Each child gets: "+res[1]+" Remaining: "+res[0]);
+        sc.close();
     }
 }
