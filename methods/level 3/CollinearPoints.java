@@ -21,6 +21,5 @@ public class CollinearPoints {
         boolean areaResult=checkCollinearArea(x1,y1,x2,y2,x3,y3);
         System.out.println("Collinear (Slope Method): "+slopeResult);
         System.out.println("Collinear (Area Method): "+areaResult);
-        sc.close();
     }
 }
