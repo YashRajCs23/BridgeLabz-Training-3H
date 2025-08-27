@@ -25,5 +25,6 @@ public class ArrayCheck {
         if(res==0) System.out.println("First and Last are Equal");
         else if(res==1) System.out.println("First is Greater");
         else System.out.println("Last is Greater");
+        sc.close();
     }
 }
