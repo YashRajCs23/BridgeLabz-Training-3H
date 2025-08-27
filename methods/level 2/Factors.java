@@ -37,5 +37,6 @@ public class Factors {
         System.out.println("Sum: "+sumFactors(factors));
         System.out.println("Product: "+productFactors(factors));
         System.out.println("Sum of Squares: "+sumSquareFactors(factors));
+        sc.close();
     }
 }
