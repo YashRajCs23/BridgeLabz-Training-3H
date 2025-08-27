@@ -14,5 +14,6 @@ public class StudentVoteChecker {
         for(int age:ages){
             System.out.println(age+" -> "+(canStudentVote(age)?"Can Vote":"Cannot Vote"));
         }
+        sc.close();
     }
 }
