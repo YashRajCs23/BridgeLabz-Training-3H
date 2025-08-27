@@ -1,4 +1,5 @@
 public class FactorTasks {
+    
     public static int[] findFactors(int num) {
         int count=0;
         for(int i=1;i<=num;i++) if(num%i==0) count++;
