@@ -39,6 +39,7 @@ public class NumberChecker1 {
         }
         System.out.println("Smallest: "+first+" Second Smallest: "+second);
     }
+    
     public static void main(String[] args) {
         int num=153;
         System.out.println("Digits count: "+countDigits(num));
