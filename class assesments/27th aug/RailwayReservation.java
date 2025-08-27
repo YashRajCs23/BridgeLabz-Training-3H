@@ -10,7 +10,6 @@ public class RailwayReservation {
         selectTrain();
         bookingProcess();
         showFinalSummary();
-        sc.close();
     }
     public static void selectTrain() {
         System.out.println("Select Train:");
