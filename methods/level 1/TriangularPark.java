@@ -10,5 +10,6 @@ public class TriangularPark {
         double b=sc.nextDouble();
         double c=sc.nextDouble();
         System.out.println(calculateRounds(a,b,c));
+        sc.close();
     }
 }
