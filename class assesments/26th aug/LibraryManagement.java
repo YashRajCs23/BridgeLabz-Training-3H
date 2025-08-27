@@ -69,5 +69,6 @@ public class LibraryManagement {
             choice = sc.nextLine();
         }
         System.out.println("\nFine calculation ended.");
+        sc.close();
     }
 }
