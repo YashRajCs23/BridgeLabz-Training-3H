@@ -9,5 +9,6 @@ public class Trigonometry {
         double angle=sc.nextDouble();
         double[] res=calculateTrigonometricFunctions(angle);
         System.out.println("sin: "+res[0]+" cos: "+res[1]+" tan: "+res[2]);
+        sc.close();
     }
 }
