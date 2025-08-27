@@ -1,4 +1,5 @@
 public class RandomArrayStats {
+    
     public static int[] generate4DigitRandomArray(int size){
         int[] arr=new int[size];
         for(int i=0;i<size;i++) arr[i]=1000+(int)(Math.random()*9000);
