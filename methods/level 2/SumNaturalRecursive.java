@@ -16,6 +16,7 @@ public class SumNaturalRecursive {
             int formula=sumFormula(n);
             System.out.println("Recursive Sum: "+rec);
             System.out.println("Formula Sum: "+formula);
+            sc.close();
         }
     }
 }
