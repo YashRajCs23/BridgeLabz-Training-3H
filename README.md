@@ -1469,3 +1469,263 @@ Perfect! Following the same **numbering format**, here’s the properly numbered
 * Method to distribute cards to players
 * Method to display players and their cards
 
+
+JAVA METHODS
+
+Level 1 Practice Programs
+Write a program to input the Principal, Rate, and Time values and calculate Simple Interest.
+Hint => 
+Simple Interest = Principal * Rate * Time / 100
+Take user input for principal, rate, time
+Write a method to calculate the simple interest given principle, rate and time as parameters
+Output “The Simple Interest is ___ for Principal ___, Rate of Interest ___ and Time ___”
+Create a program to find the maximum number of handshakes among students.
+Hint => 
+Get integer input for the numberOfStudents variable.
+Use the combination = (n * (n - 1)) / 2 formula to calculate the maximum number of possible handshakes.
+Write a method to use the combination formulae to calculate the number of handshakes
+Display the number of possible handshakes.
+An athlete runs in a triangular park with sides provided as input by the user in meters. If the athlete wants to complete a 5 km run, then how many rounds must the athlete complete
+Hint => 
+Take user input for 3 sides of a triangle 
+The perimeter of a triangle is the addition of all sides and rounds is distance/perimeter
+Write a Method to compute the number of rounds user needs to do to complete 5km run
+Write a program to check whether a number is positive, negative, or zero.
+Hint => Get integer input from the user. Write a Method to return -1 for negative number, 1 for positive number and 0 if number is zero
+Write a program SpringSeason that takes two int values month and day from the command line and prints “Its a Spring Season” otherwise prints “Not a Spring Season”. 
+Hint => Spring Season is from March 20 to June 20. Write a Method to check for Spring season and return a boolean true or false 
+Write a program to find the sum of n natural numbers using loop
+Hint => Get integer input from the user. Write a Method to find the sum of n natural numbers using loop 
+Write a program to find the smallest and the largest of the 3 numbers.
+Hint => 
+Take user input for 3 numbers
+Write a single method to find the smallest and largest of the three numbers
+public static int[] findSmallestAndLargest(int number1, int number2, int number3)
+Write a program to take 2 numbers and print their quotient and reminder
+Hint => 
+Take user input as integer
+Use division operator (/) for quotient and moduli operator (%) for reminder
+Write Method to find the reminder and the quotient of a number 
+public static int[] findRemainderAndQuotient(int number, int divisor) 
+Create a program to divide N number of chocolates among M children. Print the number of chocolates each child will get and also the remaining chocolates
+Hint => 
+Get an integer value from user for the numberOfchocolates and numberOfChildren.
+Write the method to find the number of chocolates each child gets and number of remaining chocolates
+public static int[] findRemainderAndQuotient(int number, int divisor) 
+Write a program calculate the wind chill temperature given the temperature and wind speed
+Hint => 
+Write a method to calculate the wind chill temperature using the formula 
+windChill = 35.74 + 0.6215 *temp + (0.4275*temp - 35.75) * windSpeed0.16 
+public double calculateWindChill(double temperature, double windSpeed)
+Write a program to calculate various trigonometric functions using Math class given an angle in degrees
+Hint => 
+Method to calculate various trigonometric functions, Firstly convert to radians and then use Math function to find sine, cosine and tangent.
+public double[] calculateTrigonometricFunctions(double angle)
+
+
+Level 2 Practice Programs
+Create a program to find the factors of a number taken as user input, store the factors in an array, and display the factors. Also find the sum, sum of square of factors and product of the factors and display the results
+Hint => 
+Take the input for a number
+Write a static Method to find the factors of the number and save them in an array and return the array. 
+To find factors and save to array will have two loops. The first loop to find the count and initialize the array with the count. And the second loop save the factors into the array
+Write a method to find the sum of the factors using factors array
+Write a method to find the product of the factors using factors array
+Write a method to find the sum of square of the factors using Math.pow() method
+Write a program to find the sum of n natural numbers using recursive method and compare the result with the formulae n*(n+1)/2 and show the result from both computations is correct. 
+Hint => 
+Take the user input number and check whether it's a Natural number
+Write a Method to find the sum of n natural numbers using recursion
+Write a Method to find the sum of n natural numbers using the formulae n*(n+1)/2 
+Compare the two results and print the result
+Write a program that takes a year as input and outputs the Year is a Leap Year or not 
+Hint => 
+The LeapYear program only works for year >= 1582, corresponding to a year in the Gregorian calendar. 
+Also Leap year is divisible by 4 and not divisible by 100 or divisible by 400
+Write a method to check for Leap Year using the conditions a and b
+Extend or Create a UnitConvertor utility class similar to the one shown in the notes to do the following.  Please define static methods for all the UnitConvertor class methods. E.g. 
+public static double convertKmToMiles(double km) => 
+Method To convert kilometers to miles and return the value. Use the following code  double km2miles = 0.621371;
+Method to convert miles to kilometers and return the value. Use the following code  double miles2km = 1.60934;
+Method to convert meters to feet and return the value. Use the following code to convert  double meters2feet = 3.28084;
+Method to convert feet to meters and return the value. Use the following code to convert  double feet2meters = 0.3048;
+Extend or Create a UnitConvertor utility class similar to the one shown in the notes to do the following.  Please define static methods for all the UnitConvertor class methods. E.g. 
+public static double convertYardsToFeet(double yards) => 
+Method to convert yards to feet and return the value. Use following code to convert  double yards2feet = 3;
+Method to convert feet to yards and return the value. Use following code to convert  double feet2yards = 0.333333;
+Method to convert meters to inches and return the value. Use following code to convert  double meters2inches = 39.3701;
+Method to convert inches to meters and return the value. Use following code to convert  double inches2meters = 0.0254;
+Method to convert inches to centimeters and return the value. Use the following code  double inches2cm = 2.54;
+Extend or Create a UnitConvertor utility class similar to the one shown in the notes to do the following.  Please define static methods for all the UnitConvertor class methods. E.g. 
+public static double convertFarhenheitToCelsius(double farhenheit) => 
+Method to convert Fahrenheit to Celsius and return the value. Use the following code  double farhenheit2celsius = (farhenheit - 32) * 5 / 9;
+Method to convert Celsius to Fahrenheit and return the value. Use the following code  double celsius2farhenheit = (celsius * 9 / 5) + 32;
+Method to convert pounds to kilograms and return the value. Use the following code  double pounds2kilograms = 0.453592;
+Method to convert kilograms to pounds and return the value. Use the following code  double kilograms2pounds = 2.20462; 
+Method to convert gallons to liters and return the value. Use following code to convert   double gallons2liters = 3.78541; 
+Method to convert liters to gallons and return the value. Use following code to convert  double liters2gallons = 0.264172; 
+Write a program to take user input for the age of all 10 students in a class and check whether the student can vote depending on his/her age is greater or equal to 18.
+Hint => 
+Create a class public class StudentVoteChecker and define a method public boolean canStudentVote(int age) which takes in age as a parameter and returns true or false
+Inside the method firstly validate the age for a negative number, if a negative return is false cannot vote. For valid age check for age is 18 or above return true; else return false;
+In the main function define an array of 10 integer elements, loop through the array by take user input for the student's age, call canStudentVote() and display the result
+Create a program to find the youngest friends among 3 Amar, Akbar and Anthony based on their ages and tallest among the friends based on their heights and display it
+Hint => 
+Take user input for age and height for the 3 friends and store it in two arrays each to store the values for age and height of the 3 friends
+Write a Method to find the youngest of the 3 friends
+Write a Method to find the tallest of the 3 friends
+Write a program to take user input for 5 numbers and check whether a number is positive or negative. Further for positive numbers check if the number is even or odd. Finally compare the first and last elements of the array and display if they are equal, greater, or less
+Hint => 
+Write a Method to Check whether the number is positive or negative
+Write a Method to check whether the number is even or odd
+Write a Method to compare two numbers and return 1 if number1 > number2 or 0 if both are equal or -1 if number1 < number2 
+In the main program, Loop through the array using the length call the method isPositive() and if positive call method isEven() and print accordingly 
+If the number is negative, print negative. 
+Finally compare the first and last element of the array by calling the method compare() and display if they are equal, greater, or less
+An organization took up the exercise to find the Body Mass Index (BMI) of all the persons in the team of 10 members. For this create a program to find the BMI and display the height, weight, BMI and status of each individual
+Hint => 
+Take user input in double for the weight (in kg) of the person and height (in cm) for the person and and store it in the corresponding 2D array of 10 rows and 3 columns. The First Column storing the weight, the second column storing the height in cm and the third column is the BMI
+Create a Method to find the BMI of every person and populate the array. Use the formula BMI = weight / (height * height). Note unit is kg/m^2. For this convert cm to meter
+Create a Method to determine the BMI status using the logic shown in the figure below. and return the array of all the persons BMI Status. 
+ 
+Write a program Quadratic to find the roots of the equation ax2+ bx + c. Use Math functions Math.pow() and Math.sqrt()
+Hint => 
+Take a, b, and c as input values to find the roots of x.
+The roots are computed using the following formulae
+delta = b2+ 4*a*c
+If delta is positive the find the two roots using formulae 
+root1 of x = (-b + delta)/(2*a) 
+root1 of x = (-b - delta)/(2*a)
+If delta is zero then there is only one root of x  
+root of x = -b/(2*a)
+If delta is negative return empty array or nothing 
+Write a Method to find find the roots of a quadratic equation and return the roots
+Write a program that generates five 4 digit random values and then finds their average value, and their minimum and maximum value. Use Math.random(), Math.min(), and Math.max().
+Hint => 
+Write a method that generates array of 4 digit random numbers given the size as a parameter as shown in the method signature 
+public int[] generate4DigitRandomArray(int size)
+Write a method to find average, min and max value of an array 
+public double[] findAverageMinMax(int[] numbers) 
+
+
+Level 3 Practice Programs
+Create a program to find the shortest, tallest, and mean height of players present in a football team.
+Hint => 
+The formula to calculate the mean is: mean = sum of all elements/number of elements
+Create an int array named heights of size 11 and get 3 digits random height in cms for each player in the range 150 cms to 250 cms
+Write the method to Find the sum of all the elements present in the array.
+Write the method to find the mean height of the players on the football team
+Write the method to find the shortest height of the players on the football team 
+Write the method to find the tallest height of the players on the football team
+Finally display the results
+Extend or Create a NumberChecker utility class and perform following task. Call from main() method the different methods and display results. Make sure all are static methods
+Hint => 
+Method to Find the count of digits in the number
+Method to Store the digits of the number in a digits array
+Method to Check if a number is a duck number using the digits array. A duck number is a number that has a non-zero digit present in it
+Method to check if the number is a armstrong number using the digits array. ​​Armstrong number is a number that is equal to the sum of its own digits raised to the power of the number of digits. Eg: 153 = 1^3 + 5^3 + 3^3
+Method to find the largest and second largest elements in the digits array. Use Integer.MIN_VALUE to initialize the variable.
+Method to find the the smallest and second smallest elements in the digits array. Use Integer.MAX_VALUE to initialize the variable.
+Extend or Create a NumberChecker utility class and perform following task. Call from main() method the different methods and display results. Make sure all are static methods
+Hint => 
+Method to find the count of digits in the number and a Method to Store the digits of the number in a digits array
+Method to find the sum of the digits of a number using the digits array
+Method to find the sum of the squares of the digits of a number using the digits array. Use Math.pow() method
+Method to Check if a number is a harshad number using a digits array. A number is called a Harshad number if it is divisible by the sum of its digits. For e.g. 21
+Method to find the frequency of each digit in the number. Create a 2D array to store the frequency with digit in the first column and frequency in the second column.
+Extend or Create a NumberChecker utility class and perform following task. Call from main() method the different methods and display results. Make sure all are static methods
+Hint => 
+Method to find the count of digits in the number and a Method to Store the digits of the number in a digits array
+Method to reverse the digits array 
+Method to compare two arrays and check if they are equal
+Method to check if a number is a palindrome using the Digits. A palindrome number is a number that remains the same when its digits are reversed. 
+Method to Check if a number is a duck number using the digits array. A duck number is a number that has a non-zero digit present in it
+Extend or Create a NumberChecker utility class and perform following task. Call from main() method the different methods and display results. Make sure all are static methods
+Hint => 
+Method to Check if a number is prime number. A prime number is a number greater than 1 that has no positive divisors other than 1 and itself. 
+Method to Check if a number is a neon number. A neon number is a number where the sum of digits of the square of the number is equal to the number itself 
+Method to Check if a number is a spy number. A number is called a spy number if the sum of its digits is equal to the product of its digits
+Method to Check if a number is an automorphic number. An automorphic number is a number whose square ends with the number itself. E.g. 5 is an automorphic number
+Method to Check if a number is a buzz number. A buzz number is a number that is either divisible by 7 or ends with 7
+Extend or Create a NumberChecker utility class and perform following task. Call from main() method the different methods and display results. Make sure all are static methods
+Hint => 
+Method to Check if a number is a perfect number. Perfect numbers are positive integers that are equal to the sum of their proper divisors
+Method to find the number is an abundant number. A number is called an abundant number if the sum of its proper divisors is greater than the number itself
+Method to find the number is a deficient number. A number is called a deficient number if the sum of its proper divisors is less than the number itself
+Method to Check if a number is a strong number. A number is called a strong number if the sum of the factorial of its digits is equal to the number itself
+Write a program to find the factors of a number and perform various tasks using the factors array
+Hint => 
+Method to find factors of a number and return them as an array. Note there are 2 for loops: one for the count and another for finding the factor and storing in the array
+Method to find the greatest factor of a Number using the factors array
+Method to find the sum of the factors using factors array and return the sum
+Method to find the product of the factors using factors array and return the product
+Method to find the product of the cube of the factors using the factors array. Use Math.pow() 
+Write a program to generate a six-digit OTP number using Math.random() method. Validate the numbers are unique by generating the OTP number 10 times and ensuring all the 10 OTPs are not the same
+Hint => 
+Write a method to generate a 6-digit OTP number using Math.random() 
+Create an array to save the OTP numbers generated 10 times
+Write a method to ensure that the OTP numbers generated are unique. If unique return true else return false
+Create a program to display a calendar for a given month and year. The program should take the month and year as input from the user and display the calendar for that month. E.g. for 07 2005 user input, the program should display the calendar as shown below
+
+Hint => 
+Write a Method to get the name of the month. For this define a month Array to store the names of the months
+Write a Method to get the number of days in the month. For this define a days Array to store the number of days in each month. For Feb month, check for Leap Year to get the number of days. Also, define a Leap Year Method. 
+Write a method to get the first day of the month using the Gregorian calendar algorithm
+
+Displaying the Calendar requires 2 for loops. 
+The first for loop up to the first day to get the proper indentation. As in the example above 3 spaces from Sun to Thu as to be set as July 1st starts on Fri
+The Second for loop displays the days of the month starting from 1 to the number of days. Add proper indentation for single-digit days using %3d to display the integer right-justified in a field of width 3. Please note to move to the next line after Sat
+Write a program to find the 3 points that are collinear using the slope formulae and area of triangle formulae. check  A (2, 4), B (4, 6) and C (6, 8) are Collinear for sampling. 
+Hint => 
+Take inputs for 3 points x1, y1, x2, y2, and x3, y3
+Write a Method to find the 3 points that are collinear using the slope formula. The 3 points A(x1,y1), b(x2,y2), and c(x3,y3) are collinear if the slopes formed by 3 points ab, bc, and cd are equal. 
+slope AB = (y2 - y1)/(x2 - x1), slope BC = (y3 - y2)/(x3 - x3)
+slope AC = (y3 - y1)/(x3 - x1) Points are collinear if
+slope AB = slope BC = slope Ac
+The method to find the three points is collinear using the area of the triangle formula. The Three points are collinear if the area of the triangle formed by three points is 0. The area of a triangle is 
+       
+
+area = 0.5 * (x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2))
+Create a program to find the bonus of 10 employees based on their years of service as well as the total bonus amount the 10-year-old company Zara has to pay as a bonus, along with the old and new salary.
+Hint => 
+Zara decides to give a bonus of 5% to employees whose year of service is more than 5 years or 2% if less than 5 years
+Create a Method to determine the Salary and years of service and return the same. Use the Math.random() method to determine the 5-digit salary for each employee and also use the random method to determine the years of service. Define 2D Array to save the salary and years of service.
+Write a Method to calculate the new salary and bonus based on the logic defined above and return the new 2D Array of the latest salary and bonus amount 
+Write a Method to Calculate the sum of the Old Salary, the Sum of the New Salary, and the Total Bonus Amount and display it in a Tabular Format
+Write a program for Euclidean distance between two points as well as the equation of the line using those two points. Use Math functions Math.pow() and Math.sqrt()
+Hint => 
+Take inputs for 2 points x1, y1, and x2, y2 
+Method to find the Euclidean distance between two points and return the distance
+distance = (x2-x1)2 +(y2-y1)2 
+Write a Method to find the equation of a line given two points and return the equation which includes the slope and the y-intercept
+The equation of a line is given by the equation y = m*x + b where m is the slope and b is the y-intercept. So firstly compute the slope using the formulae 
+m = (y2 - y1)/(x2 - x1)
+Post that compute the y-intercept b using the formulae 
+b = y1 - m*x1  
+Finally, return an array having slope m and y-intercept b 
+Create a program to take input marks of students in 3 subjects: physics, chemistry, and maths. Compute the total, average, and the percentage score 
+
+Hint => 
+Take input for the number of students
+Write a method to generate random 2-digit scores for Physics, Chemistry, and Math (PCM) for the students and return the scores. This method returns a 2D array with PCM scores for all students
+Write a Method to calculate the total, average, and percentages for each student and return a 2D array with the corresponding values. Please ensure to round off the values to 2 Digits using the Math.round() method. 
+Finally, write a Method to display the scorecard of all students with their scores, total, average, and percentage in a tabular format using "\t". 
+Write a program to perform matrix manipulation operations like addition, subtraction, and multiplication. The program should take random matrices as input and display the result of the operations.
+Hint => 
+Write a Method to create a random matrix, taking rows and columns as parameters
+Write a Method to add two matrices
+Write a Method to subtract two matrices
+Write a Method to multiply two matrices
+
+Write a program to perform matrix manipulation operations like finding the transpose, determinant, and inverse of a matrix. The program should take random matrices as input and display the result of the operations.
+Hint => 
+Write a Method to create a random matrix taking rows and columns as parameters
+Write a Method to find the transpose of a matrix
+           
+Write a Method to find the determinant of a 2x2 matrix
+
+Write a Method to find the determinant of a 3x3 matrix
+ 
+Write a Method to find the inverse of a 2x2 matrix
+Write a Method to find the inverse of a 3x3 matrix
+Write a Method to display a matrix
