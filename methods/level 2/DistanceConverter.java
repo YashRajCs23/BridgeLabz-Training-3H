@@ -26,6 +26,7 @@ public class DistanceConverter {
     public static double convertInchesToCentimeters(double inches) {
         return inches * 2.54;
     }
+    
     public static void main(String[] args) {
         System.out.println("10 km = " + convertKmToMiles(10) + " miles");
         System.out.println("5 miles = " + convertMilesToKm(5) + " km");
