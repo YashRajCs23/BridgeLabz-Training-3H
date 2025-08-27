@@ -1,5 +1,6 @@
 import java.util.Arrays;
 public class NumberChecker3 {
+    
     public static int countDigits(int num) {
         return String.valueOf(num).length();
     }
