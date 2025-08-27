@@ -8,5 +8,6 @@ public class WindChill {
         double temp=sc.nextDouble();
         double windSpeed=sc.nextDouble();
         System.out.println(calculateWindChill(temp,windSpeed));
+        sc.close();
     }
 }
