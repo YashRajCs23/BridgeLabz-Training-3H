@@ -38,5 +38,6 @@ public class CalendarDisplay {
         System.out.print("Enter year: ");
         int year=sc.nextInt();
         printCalendar(month,year);
+        sc.close();
     }
 }
