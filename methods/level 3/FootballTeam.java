@@ -19,6 +19,7 @@ public class FootballTeam {
         for(int i:arr) if(i>max) max=i;
         return max;
     }
+    
     public static void main(String[] args) {
         Random r=new Random();
         int[] heights=new int[11];
