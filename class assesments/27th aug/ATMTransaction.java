@@ -57,5 +57,6 @@ public class ATMTransaction {
     }
     public static void main(String[] args) {
         userInput();
+        sc.close();
     }
 }
