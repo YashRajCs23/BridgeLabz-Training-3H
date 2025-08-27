@@ -43,6 +43,5 @@ public class StudentScorecard {
         int[][] scores = generateScores(n);
         double[][] result = calculateResults(scores);
         displayScorecard(scores, result);
-        sc.close();
     }
 }
