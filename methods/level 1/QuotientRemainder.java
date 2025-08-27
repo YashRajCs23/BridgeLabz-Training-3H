@@ -9,5 +9,6 @@ public class QuotientRemainder {
         int divisor=sc.nextInt();
         int[] res=findRemainderAndQuotient(number,divisor);
         System.out.println("Remainder: "+res[0]+" Quotient: "+res[1]);
+        sc.close();
     }
 }
