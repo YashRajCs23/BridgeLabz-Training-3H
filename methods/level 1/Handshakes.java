@@ -7,5 +7,6 @@ public class Handshakes {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         System.out.println(calculateHandshakes(n));
+        sc.close();
     }
 }
