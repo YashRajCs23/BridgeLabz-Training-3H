@@ -1,4 +1,5 @@
 public class OTPGenerator {
+    
     public static int generateOTP() {
         return (int)(100000+Math.random()*900000);
     }
