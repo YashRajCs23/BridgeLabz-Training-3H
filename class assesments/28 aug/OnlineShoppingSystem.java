@@ -27,6 +27,7 @@ public class OnlineShoppingSystem{
                 moreCustomers = false;
                 System.out.println("Thank you for using the Online Shopping Cart System!");
             }
+            sc.close();
         }
     }
     // Show product menu
