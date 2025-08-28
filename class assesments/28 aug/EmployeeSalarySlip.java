@@ -37,5 +37,6 @@ public class EmployeeSalarySlip {
         for(int i=0;i<n;i++){
             printSalarySlip(names[i],salaries[i]);
         }
+        sc.close();
     }
 }
