@@ -5,5 +5,6 @@ public class PalindromeCheckerMain {
         p1.displayResult();
         PalindromeChecker p2 = new PalindromeChecker("Hello");
         p2.displayResult();
+        
     }
 }

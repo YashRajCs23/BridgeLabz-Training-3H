@@ -4,6 +4,7 @@ public class PalindromeChecker {
     PalindromeChecker(String text) {
         this.text = text;
     }
+    
     boolean isPalindrome() {
         String clean = "";
         for (int i = 0; i < text.length(); i++) {
