@@ -1,5 +1,6 @@
 package ShoppingCart;
 public class ShoppingCart {
+    
     String itemName;
     double price;
     int quantity;

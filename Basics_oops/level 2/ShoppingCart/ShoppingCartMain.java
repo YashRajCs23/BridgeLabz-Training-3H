@@ -6,5 +6,6 @@ public class ShoppingCartMain {
         item1.addItem(1);
         item1.removeItem(1);
         item1.displayDetails();
+        
     }
 }
