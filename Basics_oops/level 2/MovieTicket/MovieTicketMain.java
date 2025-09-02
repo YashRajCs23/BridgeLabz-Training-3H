@@ -4,5 +4,6 @@ public class MovieTicketMain {
         MovieTicket ticket1 = new MovieTicket("Avengers", "", 0);
         ticket1.bookTicket("A12", 250);
         ticket1.displayTicket();
+        
     }
 }

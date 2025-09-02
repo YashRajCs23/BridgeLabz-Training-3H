@@ -17,5 +17,6 @@ public class MovieTicket {
         System.out.println("Movie Name: " + movieName);
         System.out.println("Seat Number: " + seatNumber);
         System.out.println("Price: " + price);
+        
     }
 }
