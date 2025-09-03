@@ -1,6 +1,7 @@
 package Constructor.Level 1.HotelBooking;
 public class HotelBooking {
 String guestName;
+
     String roomType;
     int nights;
     public HotelBooking() {
