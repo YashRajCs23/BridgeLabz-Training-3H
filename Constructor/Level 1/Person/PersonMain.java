@@ -1,5 +1,6 @@
 package Constructor.Level 1.Person;
 public class PersonMain {
+    
     public static void main(String[] args) {
         System.out.println("\n=== Person Class ===");
         Person p1 = new Person("Alice", 25);
