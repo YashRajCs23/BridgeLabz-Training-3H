@@ -1,5 +1,6 @@
 package Constructor.Level 1.CarRental;
 public class CarRental {
+    
     String customerName;
     String carModel;
     int rentalDays;
