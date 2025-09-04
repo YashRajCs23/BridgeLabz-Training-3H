@@ -42,7 +42,6 @@ public class BankAccount {
     public double getBalance() {
         return balance;
     }
-
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
@@ -52,7 +51,6 @@ public class BankAccount {
             System.out.println("Invalid deposit amount.");
         }
     }
-
     public void withdraw(double amount) {
         if (amount > 0 && amount <= balance) {
             balance -= amount;
