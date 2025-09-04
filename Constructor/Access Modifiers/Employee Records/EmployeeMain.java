@@ -3,6 +3,7 @@ public class EmployeeMain {
     public static void main(String[] args) {
         Employee e1 = new Employee(101, "HR", 40000);
         e1.displayEmployeeDetails();
+        
         // Modify salary using public method
         e1.setSalary(45000);
         System.out.println("Updated Salary (via getter): " + e1.getSalary());

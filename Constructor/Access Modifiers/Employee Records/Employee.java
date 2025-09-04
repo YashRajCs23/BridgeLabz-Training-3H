@@ -2,6 +2,7 @@ package Constructor.Access Modifiers.Employee Records;
 public class Employee {
     // Public: accessible everywhere
     public int employeeID;
+    
     // Protected: accessible within package and subclasses
     protected String department;
     // Private: accessible only inside this class
