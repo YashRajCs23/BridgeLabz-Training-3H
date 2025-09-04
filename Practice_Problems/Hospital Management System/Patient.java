@@ -4,7 +4,6 @@ public class Patient {
     // Static variable shared among all patients
     private static String hospitalName;
     private static int totalPatients = 0;
-
     // Instance variables
     private final String patientID; // Final variable to uniquely identify each patient
     private String name;
