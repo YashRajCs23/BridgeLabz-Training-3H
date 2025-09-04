@@ -4,6 +4,7 @@ public class Book {
     public String ISBN;
     // Protected: accessible within package and subclasses
     protected String title;
+    
     // Private: accessible only inside this class
     private String author;
     // Constructor

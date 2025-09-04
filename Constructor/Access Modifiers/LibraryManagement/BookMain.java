@@ -4,6 +4,7 @@ public class BookMain {
         Book b1 = new Book("978-0134685991", "Effective Java", "Joshua Bloch");
         b1.displayBookDetails();
         // Access ISBN directly (public)
+        
         System.out.println("Access ISBN directly: " + b1.ISBN);
         // Access author only via getter/setter
         System.out.println("Author (via getter): " + b1.getAuthor());
