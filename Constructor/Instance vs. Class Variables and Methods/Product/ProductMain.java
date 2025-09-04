@@ -4,6 +4,7 @@ public class ProductMain {
         Product p1 = new Product("Laptop", 75000);
         Product p2 = new Product("Smartphone", 30000);
         Product p3 = new Product("Headphones", 2500);
+        
         // Display details of each product (instance method)
         p1.displayProductDetails();
         p2.displayProductDetails();

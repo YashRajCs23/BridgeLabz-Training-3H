@@ -3,6 +3,7 @@ public class Product {
     // Instance variables
     String productName;
     double price;
+    
     // Class variable (shared by all products)
     static int totalProducts = 0;
     // Constructor
