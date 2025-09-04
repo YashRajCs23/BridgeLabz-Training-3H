@@ -6,7 +6,6 @@ public class EmployeeMain {
         // Create new employee instances
         Employee emp1 = new Employee("Thamarai", 101, "Software Engineer");
         Employee emp2 = new Employee("Rohan", 102, "Project Manager");
-
         // Display total number of employees
         Employee.displayTotalEmployees();
 

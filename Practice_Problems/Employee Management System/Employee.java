@@ -8,7 +8,6 @@ public class Employee {
     private String name;
     private final int id; // Final variable to ensure the employee ID cannot be modified
     private String designation;
-
     // Constructor to initialize name, id, and designation using 'this'
     public Employee(String name, int id, String designation) {
         this.name = name;
@@ -16,7 +15,6 @@ public class Employee {
         this.designation = designation;
         totalEmployees++;
     }
-
     // Static method to set the company name
     public static void setCompanyName(String name) {
         companyName = name;
