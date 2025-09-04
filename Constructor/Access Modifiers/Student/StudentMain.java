@@ -4,6 +4,7 @@ public class StudentMain {
         Student s1 = new Student(101, "Alice", 8.5);
         s1.displayDetails();
         // Accessing rollNumber (public)
+        
         System.out.println("Roll Number (direct access): " + s1.rollNumber);
         // Accessing private cgpa through getter and setter
         System.out.println("CGPA (via getter): " + s1.getCgpa());

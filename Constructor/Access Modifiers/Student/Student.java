@@ -4,6 +4,7 @@ public class Student {
     public int rollNumber;
     // Protected: accessible within package and by subclasses
     protected String name;
+    
     // Private: accessible only within this class
     private double cgpa;
     // Constructor
