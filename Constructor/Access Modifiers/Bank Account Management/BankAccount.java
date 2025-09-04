@@ -2,6 +2,7 @@ package Constructor.Access Modifiers.Bank Account Management;
 public class BankAccount {
     // Public: accessible everywhere
     public String accountNumber;
+    
     // Protected: accessible within package and subclasses
     protected String accountHolder;
     // Private: only accessible inside this class
