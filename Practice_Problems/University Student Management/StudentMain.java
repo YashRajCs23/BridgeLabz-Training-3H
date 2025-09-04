@@ -8,7 +8,6 @@ public class StudentMain {
         // Create new student instances
         Student student1 = new Student("Hemashree", 101, 'A');
         Student student2 = new Student("Sharmila", 102, 'B');
-
         // Display total number of students enrolled
         Student.displayTotalStudents();
 

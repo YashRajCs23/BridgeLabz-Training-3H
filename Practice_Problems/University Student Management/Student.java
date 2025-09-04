@@ -51,7 +51,6 @@ public class Student {
             System.out.println("The object is not an instance of the Student class.");
         }
     }
-
     // Getters for instance variables
     public String getName() {
         return name;
