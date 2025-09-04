@@ -1,5 +1,6 @@
 package Constructor.Instance vs. Class Variables and Methods.Course;
 public class CourseMain {
+    
     public static void main(String[] args) {
         Course c1 = new Course("Java Programming", 6, 15000);
         Course c2 = new Course("Web Development", 4, 12000);

@@ -1,5 +1,6 @@
 package Constructor.Instance vs. Class Variables and Methods.Course;
 public class Course {
+    
     // Instance variables
     String courseName;
     int duration;   // in months
