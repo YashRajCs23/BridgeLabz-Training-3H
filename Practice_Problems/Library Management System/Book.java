@@ -1,8 +1,7 @@
 package Practice_Problems.Library Management System;
 public class Book {
-     // Static variable shared across all instances
+    // Static variable shared across all instances
     private static String libraryName;
-
     // Instance variables
     private String title;
     private String author;
