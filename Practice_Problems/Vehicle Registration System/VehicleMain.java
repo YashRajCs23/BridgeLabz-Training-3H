@@ -8,7 +8,6 @@ public class VehicleMain {
         // Create new vehicle instances
         Vehicle vehicle1 = new Vehicle("Honest Raj", "Sedan", "ABC123");
         Vehicle vehicle2 = new Vehicle("Price Danish", "SUV", "XYZ789");
-
         // Display vehicle registration details
         vehicle1.displayRegistrationDetails();
         System.out.println();

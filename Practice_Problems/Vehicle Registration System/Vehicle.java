@@ -24,7 +24,6 @@ public class Vehicle {
             System.out.println("Invalid registration fee. Please enter a non-negative value.");
         }
     }
-
     // Method to display vehicle registration details
     public void displayRegistrationDetails() {
         // Using 'instanceof' to verify the object's type before displaying details
