@@ -4,6 +4,7 @@ public class VehicleMain {
         Vehicle v1 = new Vehicle("Alice", "Car");
         Vehicle v2 = new Vehicle("Bob", "Motorbike");
         Vehicle v3 = new Vehicle("Charlie", "Truck");
+        
         // Display initial details
         v1.displayVehicleDetails();
         v2.displayVehicleDetails();

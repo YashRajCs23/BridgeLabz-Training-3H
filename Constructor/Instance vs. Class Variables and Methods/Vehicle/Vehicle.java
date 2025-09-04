@@ -3,6 +3,7 @@ public class Vehicle {
     // Instance variables
     String ownerName;
     String vehicleType;
+    
     // Class variable (shared by all vehicles)
     static double registrationFee = 5000.0;
     // Constructor
