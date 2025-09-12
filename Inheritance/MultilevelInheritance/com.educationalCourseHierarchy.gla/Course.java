@@ -31,7 +31,6 @@ class OnlineCourse extends Course {
         System.out.println("Recorded: " + (isRecorded ? "Yes" : "No"));
     }
 }
-
 // Subclass 2 (extends OnlineCourse)
 class PaidOnlineCourse extends OnlineCourse {
     double fee;
