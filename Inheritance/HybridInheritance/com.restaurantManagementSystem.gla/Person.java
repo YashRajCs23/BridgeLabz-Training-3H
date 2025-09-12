@@ -35,7 +35,6 @@ class Chef extends Person implements Worker {
         System.out.println("Duties: Cooking delicious meals.");
     }
 }
-
 // Subclass 2
 class Waiter extends Person implements Worker {
     int tableCount;
