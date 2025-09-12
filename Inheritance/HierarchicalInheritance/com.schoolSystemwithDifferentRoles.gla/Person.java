@@ -48,7 +48,6 @@ class Student extends Person {
 // Subclass 3
 class Staff extends Person {
     String department;
-
     Staff(String name, int age, String department) {
         super(name, age);
         this.department = department;
