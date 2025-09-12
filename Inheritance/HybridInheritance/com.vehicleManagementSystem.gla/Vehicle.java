@@ -33,7 +33,6 @@ class ElectricVehicle extends Vehicle {
         System.out.println("Charging the electric vehicle...");
     }
 }
-
 // Subclass 2
 class PetrolVehicle extends Vehicle implements Refuelable {
     int fuelTankCapacity; // in liters
