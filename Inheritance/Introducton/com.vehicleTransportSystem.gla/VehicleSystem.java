@@ -6,7 +6,6 @@ public class VehicleSystem {
             new Truck(120, "Diesel", 10),
             new Motorcycle(150, "Petrol", true)
         };
-
         for (Vehicle v : vehicles) {
             v.displayInfo(); // Polymorphism
             System.out.println("-------------------");
