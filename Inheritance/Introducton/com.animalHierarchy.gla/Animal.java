@@ -1,6 +1,7 @@
 package com.animalHierarchy.gla;
 // Superclass
 public class Animal {
+    
     String name;
     int age;
 
